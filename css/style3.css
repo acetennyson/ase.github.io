@@ -1,0 +1,36 @@
+.right {
+	height: auto;
+	width: 300px;
+	float: right;
+	overflow: auto;
+	margin-left: 5px;
+}
+
+
+.cancel {
+
+	float: right;
+	color: red;
+}
+
+.middle1 {
+	height: auto;
+	width: 450px;
+	float: unset;
+	overflow: auto;
+	margin: auto;
+}
+
+.form1 { 
+	width: 450px;
+	padding: 0px 0;
+	overflow: auto;
+	background-color: #2f2f2f;
+	opacity: 0.7;
+	filter: alpha(opacity=70);
+}
+
+.form1:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
